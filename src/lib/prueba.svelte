@@ -1,6 +1,6 @@
 <script>
-    let showTable1 = false;
-    let showTable2 = false;
+    let showTable1 = $state(false);
+    let showTable2 = $state(false);
   
     function toggleTable1() {
       showTable1 = !showTable1;
@@ -14,7 +14,7 @@
   <nav class="bg-gray-800">
     <ul class="flex">
       <li class="mr-6">
-        <a href="/" class="text-white hover:text-gray-400 cursor-pointer" on:click={toggleTable1}>
+        <a href="/" class="text-white hover:text-gray-400 cursor-pointer" onclick={toggleTable1}>
           Elemento 1
         </a>
         {#if showTable1}
@@ -29,7 +29,7 @@
         {/if}
       </li>
       <li class="mr-6">
-        <a href="/" class="text-white hover:text-gray-400 cursor-pointer" on:click={toggleTable2}>
+        <a href="/" class="text-white hover:text-gray-400 cursor-pointer" onclick={toggleTable2}>
           Elemento 2
         </a>
         {#if showTable2}
