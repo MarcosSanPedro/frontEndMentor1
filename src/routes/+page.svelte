@@ -11,7 +11,7 @@
 
 <img class="md:hidden mt-3" src={heroMobile} alt="Hero Images" />
 <div class=" md:hidden flex flex-col items-center gap-3 p-3">
-	<h2 class="text-5xl font-bold ">Make remote work</h2>
+	<h2 class="text-5xl font-bold whitespace-nowrap">Make remote work</h2>
 	<p class=" text-xl px-3 text-center text-gray-600">
 		Get your team in sync, no matter your location. Streamline processes, create team rituals, and
 		watch productivity soar
